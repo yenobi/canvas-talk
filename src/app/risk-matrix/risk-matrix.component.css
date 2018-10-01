@@ -1,0 +1,27 @@
+.risks__wrapper {
+  width: 340px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.risks__title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #1d83c1;
+}
+
+.risks__title--rotated {
+  transform: rotate(270deg);
+  position: absolute;
+  top: 40%;
+  left: -38px;
+}
+
+.risks__title--lower {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.risks__canvas {
+  cursor: pointer;
+}
